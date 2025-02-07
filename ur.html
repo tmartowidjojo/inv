@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Wuzar Party! 🎉</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .emoji {
+            font-size: 50px;
+            animation: bounce 1s infinite alternate;
+        }
+
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to { transform: translateY(-10px); }
+        }
+
+        .details {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        .invite-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            background-color: #ff6b81;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .invite-btn:hover {
+            background-color: #ff4757;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>🎉 Welcome to the Wuzar Party! 🎉</h1>
+        <div class="emoji">🥳🎶🍹</div>
+        <p class="details">Join us for an unforgettable night of fun, music, and good vibes! 🎶</p>
+        <p class="details">📍 Location: Secret Venue<br>🕒 Time: 8 PM - Late Night<br>📅 Date: This Weekend!</p>
+        <a href="https://example.com/wuzar-party?invite=guest" class="invite-btn">Join the Wuzar Party</a>
+    </div>
+
+</body>
+</html>
